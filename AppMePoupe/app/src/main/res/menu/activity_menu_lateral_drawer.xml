@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/homepage"
+            android:title="Home" />
+        <item
+            android:id="@+id/menu_movimentacao"
+            android:icon="@drawable/avatar"
+            android:title="Movimentação" />
+        <item
+            android:id="@+id/resumo"
+            android:icon="@drawable/calendar"
+            android:title="Resumo do mês" />
+        <item
+            android:id="@+id/grafico"
+            android:icon="@drawable/grafico"
+            android:title="Gráfico" />
+        <item
+            android:id="@+id/dicas"
+            android:icon="@drawable/bulb"
+            android:title="Dicas" />
+
+
+    </group>
+
+    <item android:title="Configurações">
+        <menu>
+            <item
+                android:id="@+id/conta"
+                android:icon="@drawable/avatar"
+                android:title="Conta" />
+            <item
+                android:id="@+id/sobre"
+                android:icon="@drawable/info"
+                android:title="Sobre nós" />
+        </menu>
+    </item>
+
+</menu>
